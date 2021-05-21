@@ -1,0 +1,32 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react-jsx"
+    }
+    // "rules": {
+    //     // "no-unused-vars": "off"
+    //     // "no-unused-vars": 0
+    //     "react/jsx-uses-react": "error",
+    //     "react/jsx-uses-vars": "error",
+    //     "no-unused-vars": 0
+    // }
+    // "eslintConfig": {
+    //     "rules": {
+    //         // "no-unused-vars": 0,
+    //         // "@typescript-eslint/no-unused-vars": 0
+    //         "no-unused-vars": "off",
+    //         "@typescript-eslint/no-unused-vars": [
+    //             "error"
+    //         ]
+    //     }
+    // }
+}
